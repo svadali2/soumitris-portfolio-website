@@ -9,7 +9,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import '../styles/Navigationbar.css';
 import Pictureviewer from './Pictureviewer.js';
 //<img src={logo} alt="Soumitri Vadali" />
-//import logo from '../public/logo-tight.png';
+//import logo from '../../public/logo-tight.png';
 
 const drawerWidth = 350;
 
