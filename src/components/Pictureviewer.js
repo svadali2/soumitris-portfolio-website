@@ -2,21 +2,6 @@ import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import '../styles/Pictureviewer.css';
 
-const images = [
-  {
-    original: 'https://picsum.photos/id/1018/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1018/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1015/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1015/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1019/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1019/250/150/',
-  },
-];
-
 class Pictureviewer extends React.Component {
   constructor(props) {
     super(props);
@@ -29,13 +14,13 @@ class Pictureviewer extends React.Component {
       showGalleryFullscreenButton: true,
       showPlayButton: true,
       showGalleryPlayButton: true,
-      showNav: false,
+      showNav: true,
       isRTL: false,
       slideDuration: 750,
       slideInterval: 4000,
       slideOnThumbnailOver: false,
-      autoPlay: true,
-      thumbnailPosition: 'bottom',
+      autoPlay: this.props.autoPlay,
+      thumbnailPosition: 'right',
       showVideo: {}
     }
   }
@@ -44,7 +29,7 @@ class Pictureviewer extends React.Component {
     return (
             <ImageGallery
               ref={i => this._imageGallery = i}
-              items={images}
+              items={this.props.images}
               lazyLoad={false}
               infinite={this.state.infinite}
               showBullets={this.state.showBullets}
