@@ -1,14 +1,17 @@
-li {
+.MuiTypography-body1 {
   font-family: 'Proxima-Nova', sans-serif;
   font-weight: 400;
+  color: black;
   font-style: normal;
   letter-spacing: 0em;
   line-height: 1.5em;
-  list-style-type: none;
   color: rgba(0,0,0,.75);
 }
 
-.link {
-  text-decoration: none;
-  color: rgba(0,0,0,.75);
+.MuiTypography-root {
+  margin: 0px 0px 0px 15%
+}
+
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: 0px
 }

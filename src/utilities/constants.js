@@ -41,6 +41,12 @@ export const originalImages = [
   {
     original: portrait15,
     thumbnail: portrait15,
+    imageSet: [
+          {
+            srcSet: portrait15,
+            media : '(max-height: 100px)',
+          }
+        ]
   },
   {
     original: product5,
@@ -72,6 +78,12 @@ export const productImages = [
   {
     original: product4,
     thumbnail: product4,
+    imageSet: [
+          {
+            srcSet: product4,
+            media : '(max-width: 1280px)',
+          }
+        ]
   },
   {
     original: product5,
