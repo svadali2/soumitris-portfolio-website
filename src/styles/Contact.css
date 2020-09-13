@@ -1,0 +1,36 @@
+input, textarea {
+  background: none;
+  color: #767676;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #D1C4E9;
+  font-family: inherit;
+  margin-bottom: 10px;
+}
+
+input, textarea:focus{
+  outline: none;
+}
+
+.text-specific {
+  margin-bottom: 10%;
+  resize: none;
+}
+
+.btn {
+  border: 0px solid #D1C4E9;
+  background-color: white;
+  color: #5E4D4D;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+h4 {
+  width: 70%;
+  font-weight: lighter;
+  font-size: 24px;
+}

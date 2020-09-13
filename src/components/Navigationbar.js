@@ -35,7 +35,7 @@ function Navigationbar(props) {
                   <Link to="/" className="link">Home</Link>
                 </li>
                 <li>
-                  <Collapsible trigger="Portfolio">
+                  <Collapsible className="link" trigger="Portfolio">
                     <ul className={classes.nested}>
                       <li>
                         <Link to="/product" className="link">Product</Link>

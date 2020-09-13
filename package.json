@@ -55,6 +55,7 @@
     "react-dev-utils": "^10.2.1",
     "react-dom": "^16.13.1",
     "react-image-gallery": "^1.0.8",
+    "react-mail-form": "^2.1.0",
     "react-router-dom": "^5.2.0",
     "react-sidebar": "^3.0.2",
     "resolve": "1.15.0",
