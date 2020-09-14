@@ -11,7 +11,7 @@ input, textarea {
   margin-bottom: 10px;
 }
 
-input, textarea:focus{
+.btn, input, textarea:focus{
   outline: none;
 }
 
@@ -33,4 +33,5 @@ h4 {
   width: 70%;
   font-weight: lighter;
   font-size: 24px;
+  color: #5E4D4D;
 }
