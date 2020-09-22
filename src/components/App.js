@@ -3,6 +3,7 @@ import '../styles/App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import { originalImages, productImages, portraitImages, fashionImages } from '../utilities/constants.js';
+import portrait22 from '../../photos/portrait/portrait22.jpg';
 import Pictureviewer from './Pictureviewer';
 import Navigationbar from './Navigationbar';
 import About from './About';
@@ -43,7 +44,7 @@ function App(props) {
           <main className={classes.content}>
             <div className={classes.toolbar} />
             <Switch>
-              <Route path="/" exact component={() => <Pictureviewer images={originalImages} autoPlay={true}/>} />
+              <Route path="/" exact component={() => <img src={portrait22} alt=""style={{marginLeft: "20%"}}  width="35%" height="35%"/>} />
               <Route path="/fashion" exact component={() => <Pictureviewer images={fashionImages} autoPlay={false}/>} />
               <Route path="/portrait" exact component={() => <Pictureviewer images={portraitImages} autoPlay={false}/>} />
               <Route path="/product" exact component={() => <Pictureviewer images={productImages} autoPlay={false}/>} />

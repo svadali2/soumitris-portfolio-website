@@ -1,5 +1,7 @@
 li {
   list-style-type: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .link {

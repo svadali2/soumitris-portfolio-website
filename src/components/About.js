@@ -7,7 +7,7 @@ function About() {
     <div className="body">
     <h1 className="big"> Hello </h1>
     <p className="words">
-    <img src={headshot} alt="soumitri" width="30%" align="right" height="30%" />
+    <img src={headshot} alt="soumitri" width="30%" align="left" style={{paddingRight: "1em"}} height="30%" />
     Hello, I'm Soumitri - a photographer based in Singapore who focuses on
                           photographing humans, food and products.
                           </p>

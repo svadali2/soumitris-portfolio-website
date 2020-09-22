@@ -44,13 +44,7 @@ export const originalImages = [
   },
   {
     original: portrait15,
-    thumbnail: portrait15,
-    imageSet: [
-          {
-            srcSet: portrait15,
-            media : '(max-height: 100px)',
-          }
-        ]
+    thumbnail: portrait15
   },
   {
     original: product5,

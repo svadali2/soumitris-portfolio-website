@@ -30,7 +30,7 @@ function Navigationbar(props) {
       <nav className={classes.drawer} >
           <div className={classes.toolbar} />
               <ul>
-                <img src={logo} alt="Soumitri Vadali" height="40%" width="40%"/>
+                <img src={logo} alt="Soumitri Vadali" style={{marginBottom: "1rem"}} height="40%" width="40%"/>
                 <li>
                   <Link to="/" className="link">Home</Link>
                 </li>
