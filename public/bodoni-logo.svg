@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="524" height="318" viewBox="0 0 524 318">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 416.667px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #1d1d24;
+        font-family: BodoniFLF;
+      }
+
+      .cls-2 {
+        font-size: 232.828px;
+      }
+    </style>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <text id="V" class="cls-1" x="-4.249" y="308">V</text>
+    <text id="S" class="cls-1" transform="matrix(0.974, 0, 0, 0.974, 105.455, 300.556)">S</text>
+    <text id="_7" data-name="7" class="cls-2" transform="matrix(1.79, 0, 0, 1.79, 295.601, 300.653)">7</text>
+  </g>
+</svg>

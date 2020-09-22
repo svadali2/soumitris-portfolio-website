@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import logo from '../../public/logo-tight.png';
+import logo from '../../public/bodoni-logo.jpg';
 import { StylesProvider } from "@material-ui/core/styles";
 import Collapsible from 'react-collapsible';
 import { Link, withRouter } from "react-router-dom";
