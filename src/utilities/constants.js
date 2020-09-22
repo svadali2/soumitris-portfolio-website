@@ -31,12 +31,16 @@ import product7 from '../../photos/product/product7.jpg';
 
 export const originalImages = [
   {
+    original: portrait22,
+    thumbnail: portrait22,
+  },
+  {
     original: product1,
     thumbnail: product1,
   },
   {
-    original: portrait10,
-    thumbnail: portrait10,
+    original: portrait1,
+    thumbnail: portrait1,
   },
   {
     original: portrait15,
@@ -52,14 +56,6 @@ export const originalImages = [
     original: product5,
     thumbnail: product5,
   },
-  {
-    original: portrait22,
-    thumbnail: portrait22,
-  },
-  {
-    original: product7,
-    thumbnail: product7,
-  }
 ];
 
 export const productImages = [
@@ -70,10 +66,6 @@ export const productImages = [
   {
     original: product2,
     thumbnail: product2,
-  },
-  {
-    original: product3,
-    thumbnail: product3,
   },
   {
     original: product4,
@@ -105,10 +97,6 @@ export const portraitImages = [
     thumbnail: portrait1,
   },
   {
-    original: portrait2,
-    thumbnail: portrait2,
-  },
-  {
     original: portrait3,
     thumbnail: portrait3,
   },
@@ -119,14 +107,6 @@ export const portraitImages = [
   {
     original: portrait5,
     thumbnail: portrait5,
-  },
-  {
-    original: portrait6,
-    thumbnail: portrait6,
-  },
-  {
-    original: portrait7,
-    thumbnail: portrait7,
   },
   {
     original: portrait8,
@@ -141,20 +121,8 @@ export const portraitImages = [
     thumbnail: portrait10,
   },
   {
-    original: portrait11,
-    thumbnail: portrait11,
-  },
-  {
     original: portrait12,
     thumbnail: portrait12,
-  },
-  {
-    original: portrait13,
-    thumbnail: portrait13,
-  },
-  {
-    original: portrait14,
-    thumbnail: portrait14,
   },
 ];
 
