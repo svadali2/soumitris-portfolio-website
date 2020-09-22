@@ -2,13 +2,29 @@
   width: 80%
 }
 
+
+.big {
+  font-family: 'Proxima-Nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  letter-spacing: 0em;
+  line-height: 2.0em;
+  color: #767676;
+  width: 80%;
+}
+
 .words {
     font-family: 'Proxima-Nova', sans-serif;
     font-weight: 400;
-    color: black;
     font-style: normal;
+    font-size: 18px;
     letter-spacing: 0em;
-    line-height: 1.5em;
-    color: rgba(0,0,0,.75);
-    width: 50%;
+    line-height: 2.0em;
+    color: #767676;
+    width: 80%;
+}
+
+p {
+  margin-bottom: 1rem;
 }
