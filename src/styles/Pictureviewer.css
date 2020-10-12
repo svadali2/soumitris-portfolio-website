@@ -1,1 +1,15 @@
-@import "~react-image-gallery/styles/css/image-gallery.css";
+.container {
+    width: inherit;
+    height: inherit;
+}
+
+.image {
+    position: absolute;
+    animation: fade 3s infinite;
+    width: auto;
+    height: 37.5rem;
+}
+
+.hidden {
+    visibility: hidden;
+}

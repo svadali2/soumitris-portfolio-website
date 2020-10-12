@@ -3,7 +3,6 @@ import '../styles/App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import { originalImages, productImages, portraitImages, fashionImages } from '../utilities/constants.js';
-import portrait22 from '../../photos/portrait/portrait22.jpg';
 import Pictureviewer from './Pictureviewer';
 import Navigationbar from './Navigationbar';
 import About from './About';
