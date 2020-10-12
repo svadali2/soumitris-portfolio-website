@@ -5,11 +5,17 @@
 
 .image {
     position: absolute;
-    animation: fade 3s infinite;
     width: auto;
     height: 37.5rem;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+     opacity: 1;
 }
 
 .hidden {
     visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
 }
