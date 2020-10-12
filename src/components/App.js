@@ -44,7 +44,7 @@ function App(props) {
           <main className={classes.content}>
             <div className={classes.toolbar} />
             <Switch>
-              <Route path="/" exact component={() => <img src={portrait22} alt=""style={{marginLeft: "20%"}}  width="35%" height="35%"/>} />
+              <Route path="/" exact component={() => <Pictureviewer images={originalImages} autoPlay={true}/>} />
               <Route path="/fashion" exact component={() => <Pictureviewer images={fashionImages} autoPlay={false}/>} />
               <Route path="/portrait" exact component={() => <Pictureviewer images={portraitImages} autoPlay={false}/>} />
               <Route path="/product" exact component={() => <Pictureviewer images={productImages} autoPlay={false}/>} />
