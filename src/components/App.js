@@ -3,8 +3,7 @@ import '../styles/App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import { originalImages, productImages, portraitImages, fashionImages } from '../utilities/constants.js';
-import portrait22 from '../../photos/portrait/portrait22.jpg';
-import Pictureviewer from './Pictureviewer';
+import Content from './Content';
 import Navigationbar from './Navigationbar';
 import About from './About';
 import Contact from './Contact';
@@ -44,10 +43,10 @@ function App(props) {
           <main className={classes.content}>
             <div className={classes.toolbar} />
             <Switch>
-              <Route path="/" exact component={() => <Pictureviewer images={originalImages} autoPlay={true}/>} />
-              <Route path="/fashion" exact component={() => <Pictureviewer images={fashionImages} autoPlay={false}/>} />
-              <Route path="/portrait" exact component={() => <Pictureviewer images={portraitImages} autoPlay={false}/>} />
-              <Route path="/product" exact component={() => <Pictureviewer images={productImages} autoPlay={false}/>} />
+              <Route path="/" exact component={() => <Content images={originalImages} />} />
+              <Route path="/fashion" exact component={() => <Content images={fashionImages} />} />
+              <Route path="/portrait" exact component={() => <Content images={portraitImages} />} />
+              <Route path="/product" exact component={() => <Content images={productImages} />} />
               <Route path="/about" exact component={() => <About />} />
               <Route path="/contact" exact component={() => <Contact />} />
             </Switch>
