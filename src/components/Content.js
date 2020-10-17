@@ -1,7 +1,8 @@
 import React from 'react';
 import Pictureviewer from './Pictureviewer';
 import ThumbnailViewer from './Thumbnailviewer';
-import { CSSTransition } from 'react-transition-group';
+import '../styles/Content.css';
+import { CSSTransitionGroup } from 'react-transition-group' // ES6
 
 class Content extends React.Component {
     constructor(props) {
@@ -19,15 +20,13 @@ class Content extends React.Component {
         const { images } = this.props;
         const { isThumbnail } = this.state;
         return (
-            <div>
-            <CSSTransition in={isThumbnail} timeout={1000}>
-                <div>
+            <CSSTransitionGroup 
+                transitionName="example"
+                transitionEnterTimeout={0}
+                transitionLeaveTimeout={0}>
                 {!isThumbnail && <Pictureviewer shiftViewer={this.shiftViewer} images={images}></Pictureviewer>}
-                {isThumbnail && <ThumbnailViewer shiftViewer={this.shiftViewer} images={images}></ThumbnailViewer>}                     
-                </div>
-            </CSSTransition>    
-            </div>
-            
+                {isThumbnail && <ThumbnailViewer shiftViewer={this.shiftViewer} images={images}></ThumbnailViewer>}                   
+            </CSSTransitionGroup>
         );
     }
 }

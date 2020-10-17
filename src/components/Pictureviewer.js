@@ -31,8 +31,8 @@ class Pictureviewer extends React.Component {
     const x = event.clientX;
     let start = this.pictureViewer.current.offsetLeft;
     let width = this.pictureViewer.current.offsetWidth;
-    var divLeftBounds = (0.45) * width + start;
-    var divRightBounds = (0.55) * width + start;
+    let divLeftBounds = (0.45) * width + start;
+    let divRightBounds = (0.55) * width + start;
     if (x < divLeftBounds) {
       this.setState( { activeIndex: activeIndex - 1 === -1 ? images.length - 1 : activeIndex - 1 } );
     } else if (x >= divLeftBounds && x <= divRightBounds) {
@@ -48,7 +48,7 @@ class Pictureviewer extends React.Component {
     return (
             <div className={"fullSizeViewer"} onClick={(e) => this.updateIndexAndShiftViewer(e)} onMouseMove={(e) => this.changeCursor(e)} ref={this.pictureViewer}>
               {images.map((image, index) => {
-                return <img key={index} className={"image"+(activeIndex !== index ? " hidden" : "")} src={images[index]} alt="" />
+                return <img key={index} className={"image"+(activeIndex !== index ? " secret" : "")} src={images[index]} alt="" />
               })}
             </div>
     );
