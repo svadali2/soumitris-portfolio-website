@@ -1,0 +1,21 @@
+.viewer {
+    text-align: center;
+  }
+
+.thumbnail {
+  width: auto;
+  margin: 0 auto;
+  height: 36.125rem;
+  object-fit: cover;
+  border: 0px;
+  padding: 1rem;
+  transition: visibility 1s 1.5s, opacity 1.5s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+}
