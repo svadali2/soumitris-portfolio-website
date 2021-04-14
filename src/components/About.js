@@ -10,9 +10,6 @@ function About() {
     Hello, I'm Soumitri - a photographer based in Singapore who focuses on
                           photographing humans, food and products.
                           </p>
-    <p className="words">After studying Computer Engineering in the United States for several
-                          years, I moved back home in 2018 and recently completed my diploma in
-                          Photography and Digital Imaging at the Chatsworth Medi@rt Academy.</p>
     <p className="words">Through an interest for film making, I bought my first DSLR in 2017. By chance,
                           while taking street photographs, it dawned on me that I really loved taking photos.
                           Photography gave me the base to explore the vast field of the visual arts. To
